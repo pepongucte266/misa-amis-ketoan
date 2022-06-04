@@ -1,0 +1,207 @@
+.m-icon {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: 2016px 1902px;
+    background-image: url(../../assets/img/sprite.svg);
+}
+
+.m-icon-24 {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.m-icon-16 {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+}
+
+
+/* 
+
+
+.m-icon-employee {
+  background-image: url(../../assets/icon/dic-employee.png);
+}
+
+.m-icon-setting {
+  background-image: url(../../assets/icon/setting.png);
+}
+
+.m-icon-option {
+  background-image: url(../../assets/icon/option.png);
+} */
+
+.m-icon-refresh {
+    background-position: -426px -201px;
+}
+
+.m-icon-refresh:hover {
+  background-position: -1097px -88px;
+}
+
+.m-icon-search {
+    background-position: 49.6% 19.048%;
+}
+
+.m-icon-dashboard {
+    background-position: 1.652% 86.426%;
+}
+
+.m-icon-cash {
+    background-position: 3.896% 86.388%;
+}
+
+.m-icon-deposits {
+    background-position: 6.05% 86.402%;
+}
+
+.m-icon-buy {
+    background-position: 8.25% 86.441%;
+}
+
+.m-icon-sell {
+    background-position: 10.321% 86.388%;
+}
+
+.m-icon-bill {
+    background-position: 12.687% 86.395%;
+}
+
+.m-icon-warehouse {
+    background-position: 14.715% 86.395%;
+}
+
+.m-icon-tool {
+    background-position: 16.967% 86.448%;
+}
+
+.m-icon-asset {
+    background-position: 14.715% 86.395%;
+}
+
+.m-icon-tax {
+    background-position: 21.35% 86.455%;
+}
+
+.m-icon-price {
+    background-position: 23.562% 86.448%;
+}
+
+.m-icon-general {
+    background-position: 25.7% 86.441%;
+}
+
+.m-icon-budget {
+    background-position: 19.1% 88.042%;
+}
+
+.m-icon-report {
+    background-position: 27.572% 86.424%;
+}
+
+.m-icon-analysis {
+    background-position: 10.355% 88.108%;
+}
+
+.m-icon-avatar {
+    background-position: 31.148% 61.889%;
+    background-size: 1008px 953px;
+    width: 32px;
+    height: 32px;
+}
+
+.m-icon-menu {
+    background-position: -843px -30px;
+}
+
+.m-icon-grid-light {
+    /* background-position: 21.46% 4.868%;
+  background-size: 3024px 2853px; */
+    background-position: -424px -86px;
+}
+
+.m-icon-arrow-down {
+    background-position: 56.394% 19.231%;
+    width: 16px;
+    height: 10px;
+}
+
+.m-icon-noti {
+    background-position: 39.519% 1.595%;
+    background-size: 1860.923076923077px 1759.384615384615px;
+}
+
+.m-icon-help {
+    background-position: -89px -144px;
+}
+
+.m-icon-close {
+    background-position: -144px -144px;
+}
+
+.m-icon-expand {
+    background-position: -900px -365px;
+    width: 8px;
+    height: 5px;
+}
+
+.m-icon-dropdown {
+    background-position: -566px -365px;
+    width: 8px;
+    height: 5px;
+}
+
+.m-icon-dropdown-16 {
+  background-position: -560px -359px;
+  width: 16px;
+  height: 16px;
+}
+
+.m-icon-dropdown-white-16 {
+  background-position: -848px -359px;
+  width: 16px;
+  height: 16px;
+}
+
+.m-icon-warning {
+    background-position: 30.202% 24.773%;
+}
+
+.m-icon-error {
+    background-position: -24px -954px;
+}
+
+.m-icon-info {
+  background-position: -666px -453px;
+}
+
+.m-icon-toast-error {
+    background-position: -539px -145px;
+    width: 20px;
+    height: 22px;
+}
+
+.m-icon-toast-success {
+    background-position: -483px -145px;
+    width: 22px;
+    height: 22px;
+}
+
+.m-icon-toast-close {
+    background-position: -1178px -362px;
+    width: 12px;
+    height: 12px;
+}
+
+.m-icon-excel {
+  background-position: -704px -200px;
+}
+
+.m-icon-excel:hover {
+  background-position: -704px -256px;
+}

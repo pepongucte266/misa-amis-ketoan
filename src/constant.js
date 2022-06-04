@@ -1,0 +1,1 @@
+export var URL = "https://localhost:7013/api/v1/"

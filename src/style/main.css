@@ -1,0 +1,123 @@
+@import url(./components/button.css);
+@import url(./components/input.css);
+@import url(./components/icon.css);
+@import url(./components/toast.css);
+@import url(./components/table.css);
+@import url(./components/checkbox.css);
+@import url(./components/paging.css);
+@import url(./components/combobox.css);
+@import url(./components/dialog.css);
+@import url(./layout/navbar.css);
+@import url(./layout/content.css);
+@import url(./layout/header.css);
+body {
+    font-family: NotoSans;
+    margin: 0;
+}
+
+@font-face {
+    font-family: NotoSans;
+    src: url("../assets/fonts/notosans-regular.2cb88a13.woff2");
+}
+
+@font-face {
+    font-family: NotoSansBold;
+    src: url("../assets/fonts/notosans-bold.3ede5aff.woff2");
+}
+
+@font-face {
+    font-family: NotoSansItalic;
+    src: url("../assets/fonts/notosans-italic.1c1aaac9.woff2");
+}
+
+@font-face {
+    font-family: NotoSansSemi;
+    src: url("../assets/fonts/notosans-semibold.df3e6dc4.woff2");
+}
+
+.main {
+    width: 100%;
+    height: calc(100vh - 48px);
+    display: flex;
+    position: absolute;
+}
+
+.m-loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #00000052;
+    z-index: 100000000000000;
+}
+
+.m-loading .m-loading-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 55px;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* border: 2px solid #fff; */
+    background-image: url('../assets/loading.svg');
+    /* border-top: 2px solid #019160; */
+    /* border-radius: 50%; */
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.m-red {
+    color: red;
+}
+
+.m-flex {
+    display: flex;
+    align-items: center;
+}
+
+.m-pr6px {
+    padding-right: 6px;
+}
+
+.m-mr6px {
+    margin-right: 6px;
+}
+
+.m-mr12px {
+  margin-right: 12px;
+}
+
+.m-w40p {
+    width: 40%;
+}
+
+.m-w25p {
+    width: 25%;
+}
+
+.m-w50p {
+    width: 50%;
+}
+
+.m-w60p {
+    width: 60%;
+}
+
+.m-w100p {
+    width: 100%;
+}
+
+.m-mr20px {
+    margin-right: 20px;
+}
