@@ -1,0 +1,131 @@
+.m-dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10000;
+    background-color: rgba(0, 0, 0, 0.202);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.m-dialog .m-dialog-content {
+    position: absolute;
+    height: auto;
+    width: 900px;
+    min-width: 900px;
+    max-width: 900px;
+    max-height: 100%;
+    padding-bottom: 20px;
+    overflow-y: auto;
+    background-color: #fff;
+    /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.m-dialog-content::-webkit-scrollbar {
+    display: none;
+}
+
+.m-dialog .m-dialog-header-group {
+    display: flex;
+}
+
+.m-dialog .m-dialog-header-group .m-dialog-header .m-dialog-checkbox-label {
+    padding-left: 10px;
+}
+
+.m-dialog .m-dialog-header {
+    padding: 20px 12px 20px 32px;
+    justify-content: space-between;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.m-dialog .m-dialog-header .m-dialog-header-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.m-dialog .m-dialog-header .m-dialog-header-checkbox {
+    padding: 0 1.5rem;
+}
+
+.m-dialog .m-dialog-header .m-dialog-checkbox-label {
+    font-size: 13px;
+}
+
+.m-dialog-header-group .m-dialog-close {
+    display: flex;
+    padding: 12px;
+    position: absolute;
+    right: 0;
+}
+
+.m-dialog-header-group .m-dialog-close .m-icon {
+    cursor: pointer;
+}
+
+.m-dialog-header-group .m-dialog-close .m-icon:not(:last-child) {
+    margin-right: 6px;
+}
+
+.m-dialog-body {
+    padding: 0 32px 0 32px;
+}
+
+.m-dialog-form {
+    display: flex;
+}
+
+.m-dialog-form .m-w50p:first-child {
+    padding-right: 26px;
+}
+
+.m-dialog-form:not(:last-child) {
+    padding-bottom: 12px;
+}
+
+.m-dialog-body .m-row {
+    padding-bottom: 12px;
+}
+
+.m-dialog-body .m-row .row-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.m-dialog-body .m-row .row-item>.row-item-text {
+    font-size: 12px;
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+
+.row-item-cb-text {
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.row-item .radio-group input,
+.row-item .radio-group label {
+    cursor: pointer;
+}
+
+.m-dialog-divide {
+    height: 1px;
+    box-sizing: border-box;
+    background-color: #e0e0e0;
+    margin: 32px 32px 20px 32px;
+}
+
+.m-dialog-footer-btn {
+    margin: 0 32px;
+    justify-content: space-between;
+}

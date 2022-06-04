@@ -1,0 +1,83 @@
+.m-toast-box {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.m-toast-box .m-toast-item {
+    display: flex;
+    /* height: 48px; */
+    border-radius: 4px;
+    padding: 16px 8px 16px 16px;
+    align-items: center;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    box-shadow: #939191 1px 2px 5px;
+}
+
+.m-toast-box .m-toast-item .m-toast-icon {
+    font-size: 24px;
+}
+
+.m-toast-box .m-toast-item .m-toast-text {
+    color: #000;
+    margin: 0 16px 0 8px;
+}
+
+.m-toast-box .m-toast-item .m-toast-close {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.m-toast-box .m-toast-item .m-toast-close:hover {
+    color: rgb(51, 50, 50);
+}
+
+
+/* Error */
+
+.m-toast-box .m-toast-item.m-toast-error .m-toast-icon {
+    color: red;
+}
+
+.m-toast-box .m-toast-item.m-toast-error .m-toast-close {
+    color: red;
+}
+
+
+/* Warning */
+
+.m-toast-box .m-toast-item.m-toast-warning .m-toast-icon {
+    color: #F1C04E;
+}
+
+.m-toast-box .m-toast-item.m-toast-warning .m-toast-close {
+    color: #F1C04E;
+}
+
+
+/* Success */
+
+.m-toast-box .m-toast-item.m-toast-success .m-toast-icon {
+    color: #01B075;
+}
+
+.m-toast-box .m-toast-item.m-toast-success .m-toast-close {
+    color: #01B075;
+}
+
+
+/* Info */
+
+.m-toast-box .m-toast-item.m-toast-info .m-toast-icon {
+    color: #4388D9;
+}
+
+.m-toast-box .m-toast-item.m-toast-info .m-toast-close {
+    color: #4388D9;
+}
+
+.m-toast-box .m-toast-item .m-toast-close:hover {
+    color: #0e0f0f;
+}

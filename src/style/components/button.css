@@ -1,0 +1,45 @@
+.m-btn {
+    height: 32px;
+    border: 1px solid #8d9096;
+    color: #111;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 6px 16px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.m-btn.m-btn-primary {
+    background-color: #2ca01c;
+    color: #fff;
+}
+
+.m-btn:hover {
+    background-color: #D2D3D6;
+}
+
+.m-btn.m-btn-primary:hover {
+    background-color: #35BF22;
+}
+
+.m-btn:active {
+    background-color: #BBBCBC;
+}
+
+.m-btn.m-btn-primary:active {
+    background-color: #2CA01C;
+}
+
+.m-btn-icon {
+    background-position: 16px center;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    padding-left: 40px;
+    padding-right: 16px;
+}
+
+
+/* .m-btn-icon-add {
+  background-image: url("../../assets/icon/add.png");
+} */
